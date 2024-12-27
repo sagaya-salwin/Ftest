@@ -1,0 +1,249 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: #e6e1e1; /* Gray background */
+    
+    
+  }
+  h1,h2,h3{
+    font-weight: bold;
+  }
+
+  h4{
+    font-weight: bold;
+    font-size: 10; 
+  }
+ 
+  
+  .SettingsPageCard {
+    width: calc(100% - 1.7%);
+    border-top: 10px;
+    min-width: none;
+    padding: 15px;
+    margin: 12px; /* Center the card */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    box-sizing: border-box; 
+    text-align: left;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 100%;
+       
+}
+
+.form-container{
+    margin-top: 20px;
+    
+}
+
+.form-group label{
+    margin-bottom: 7px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #333;
+}
+.form-group input,select{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #e6e1e1; 
+    min-width: 49%;
+      
+
+}
+.whatsapp-input{
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #e6e1e1;
+    
+}
+.whatsapp-input span{
+    padding: 10px;
+    font-size: 14px;
+    color: #333;
+    border-right: 1px solid #ccc;
+    background-color: #e6e1e1;
+}
+
+.whatsapp-input input{
+    border: none;
+    flex: 1;
+    padding: 10px;
+    background: none;
+}
+hr{
+    border: 0;
+    height: 1px;
+    background: #ddd;
+    margin: 20px 0;
+}
+.brand-images-container {
+    margin-top: 20px;
+}
+.form-group-row {
+    display: flex;
+    justify-content: space-between; /* Distribute space evenly */
+    align-items: flex-start; /* Align items at the start */
+    gap: 20px; /* Add spacing between items */
+    flex-wrap: wrap; /* Allow wrapping if space is insufficient */
+}
+
+
+.logo{
+     height: 150px;
+     width: 150px;
+     background-color: transparent;
+     border-radius: 10px;
+     border: 1px solid #352e2e;
+     padding: 3px;
+}
+
+.logo img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover; /* Ensures the image scales properly without distortion */
+    border-radius: 10px;
+    
+}
+
+.horizontal-images {
+    display: flex; /* Align images in a horizontal row */
+    gap: 10px; /* Space between images */
+    overflow-x: auto; /* Add horizontal scroll if images overflow the container */
+    padding: 10px; /* Inner spacing for the container */
+    background-color: transparent; /* Light gray background */
+    border: 1px solid #352e2e; /* Dotted border for the container */
+    border-radius: 10px;
+    justify-content: space-evenly;
+}
+
+.horizontal-images img {
+    width: auto; /* Keep the original aspect ratio */
+    height: 150px; /* Set a consistent height for all images */
+    object-fit: cover; /* Scale images properly without distortion */
+    border: 1px solid #ccc; /* Optional border */
+    border-radius: 10px; /* Rounded corners for images */
+}
+
+.form-group-row p{
+    font-weight: bold;
+    font-size: 13px;
+    color: #333;
+}
+.image-container{
+      height: 33px;
+      width: 33px;
+      margin-top: 35px;
+      margin-left: 60px;
+}
+
+.image-container img {
+    width: 100%; /* Ensure the image fills the container's width */
+    height: 100%; /* Ensure the image fills the container's height */
+    object-fit: cover; /* Ensures the image scales properly without distortion */
+    display: block; /* Removes inline spacing for better layout control */
+}
+
+.brand-detail-container{
+    margin-top: 20px;
+}
+
+
+
+.form-group-row .form-group {
+    flex: 1; /* Distribute equal space */
+    min-width: 200px; /* Ensure minimum width for smaller screens */
+}
+
+.form-group-row .form-group input,
+.form-group-row .form-group .whatsapp-input {
+    width: 100%; /* Ensure input takes full width */
+    box-sizing: border-box; /* Include padding in width calculation */
+    
+}
+
+textarea {
+    width: 100%; /* Full width of the container */
+    height: 150px; /* Adjust height to your preference */
+    padding: 10px; /* Inner spacing */
+    border: 1px solid #ccc; /* Border styling */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #e6e1e1; /* Light gray background */
+    font-size: 14px; /* Font size for the text */
+    color: #333; /* Text color */
+    resize: none; /* Disable resize */
+    box-sizing: border-box; /* Include padding in width */
+}
+.form-group-row-2 {
+    display: flex;
+    justify-items: auto; /* Allign The Item with our Allignment */
+    align-items: flex-start; /* Align items at the start */
+    gap: 20px; /* Add spacing between items */
+    flex-wrap: wrap; /* Allow wrapping if space is insufficient */
+}
+
+.form-group-row-2 .form-group {
+    max-width: 32.2%;
+    text-align: left;
+}
+
+.BrandSocilaMedia .logo {
+    width: 25px; /* Adjust the size of the logo */
+    height: 25px;
+    margin-right: 3px; /* Space between logo and text */
+    margin-bottom: 3px;
+    border: none;
+  }
+  
+  .logo-text {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 14px;
+    color: #333;
+  }
+  
+
+  /*For Horizondal Ruler Line*/
+.hr-line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
+}
+
+.solid-line {
+  border: none;
+  background-color: #ddd;
+  height: 1px;
+  width: 99%; /* Adjust width of the line */
+  margin: 0;
+}
+
+.edit-link {
+  margin-left: 5px; /* Space between the line and the link */
+  padding: 5px 5px;
+  background-color: #fff;
+  color:#665c5c;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.edit-link:hover {
+  text-decoration: underline;
+  font-size: large;
+}
+
+  
+
