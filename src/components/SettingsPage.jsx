@@ -298,21 +298,21 @@ const SettingsPage = () => {
             <div className="form-group-row">
             <div class="form-group">
                         <div class="logo-text">
-                            <img src="test/public/images/facebook-logo.png" alt="logo" class="logo" id="FacebookLink"/>
+                            <img src="./images/facebook-logo.png" alt="logo" class="logo" id="FacebookLink"/>
                             <span>Facebook</span>
                           </div>                      
                         <input type="text" id="FacebookLink" placeholder="" value={formData.FacebookLink}  onChange={handleInputChange}/>
                     </div>
                     <div class="form-group">
                         <div class="logo-text">
-                            <img src="test/public/images/instagram-logo.png" alt="logo" class="logo" id="InstaLink"/>
+                            <img src="./images/instagram-logo.png" alt="logo" class="logo" id="InstaLink"/>
                             <span>Instagram</span>
                           </div>                      
                         <input type="text" id="InstaLink" placeholder="" value={formData.InstaLink} onChange={handleInputChange}/>
                     </div>
                     <div class="form-group">
                         <div class="logo-text">
-                            <img src="test/public/images/youtube-logo.png" alt="logo" class="logo" id="YoutubeLink"/>
+                            <img src="./images/youtube-logo.png" alt="logo" class="logo" id="YoutubeLink"/>
                             <span>Instagram</span>
                           </div>                      
                         <input type="text" id="YoutubeLink" placeholder="" value={formData.YoutubeLink} onChange={handleInputChange}/>
